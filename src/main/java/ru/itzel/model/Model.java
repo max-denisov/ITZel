@@ -5,6 +5,14 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Model {
+
+    public class Bacteria()
+    {
+        private String race;
+        private int mass;
+        private face faceside;
+    }
+
     private static final Logger log = LogManager.getLogger(Model.class);
 
     public static void main(String[] args){
