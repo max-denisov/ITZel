@@ -8,4 +8,11 @@ public class Utils {
     public static void main(String[] args){
         log.log(Level.INFO, "Hello World!");
     }
+
+    enum face {
+        UP,
+        RIGHT,
+        DOWN,
+        LEFT
+    };
 }
